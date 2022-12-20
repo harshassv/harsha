@@ -1,0 +1,234 @@
+body{
+    margin: 0;
+    text-align: center;
+    /* font-family: 'Merriweather', serif;   */
+    font-family: cursive;
+}
+.chat{
+    position: fixed;
+    bottom: 15px;
+    right: 25px;
+}
+.my_name{
+    margin: 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 3.4375rem;
+    /* 343.75% */
+    color: #019479;
+    position: relative;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+.first_p{
+    margin-top: 0%;
+    /* font-size: small; */
+    font-family: cursive;
+}
+.top_container{ 
+    padding-top: 100px;
+    background-color: #ccf2f4;
+    /* background-color:  	 #b3ffff; */
+    /* background-color:#F0F0F0; */
+    /* background-color: #fefaf6; */
+    position: relative;
+    /* height: 100%; */
+}
+.top_cloud{
+    position: absolute;
+    top: 5px;
+    left: 340px;
+    height: 150px;
+}
+.bottom_cloud{
+    position: absolute;
+    top: 110px;
+    right: 350px;
+    height: 150px;
+}
+.mountain{
+    margin-top: 10px;
+    /* position: relative;
+    top: 148px; */
+}
+.centre_image{
+    margin-top: 50px;
+    width: 155px;
+    height: 150px;
+}
+.text1{
+    width: 500px;
+    margin: 25px auto 0;
+}
+.nav_bar{
+    background-color: #ccf2f4;
+    width: 100%;
+    /* position: fixed;
+    z-index:1; */
+}
+.top_image{
+    width: 70px;
+    height: 70px;
+    margin-top: 5px;
+    /* position: fixed;
+    z-index:1; */
+    /* right: 650px; */
+     margin-right: 950px;
+}
+.nav_p{
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    bottom: 25px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: cursive;
+    /* color: lightgray; */
+}
+.nav_p:hover{
+    color:orangered;
+    cursor: pointer;
+}
+.hi_text{
+    /* color: #00b33c; */
+    /* color: #2E8B57; */
+    /* color: #3CB371; */
+    color: #019479;
+    font-size: large;
+    font-weight: bolder;
+}
+.about_me{
+    font-family: cursive;
+    /* color: #322081 ; */
+}
+hr{
+    border-style: dotted none none none;
+    border-width: thick;
+    width: 3%;
+    border-color:lightgray;
+    margin: 50px auto;
+}
+.technical_skills_h{
+    margin: auto;
+    color: whitesmoke;
+    font-family: 'Merriweather', serif; 
+    /* font-family: sans-serif; */
+    font-weight: bold;
+    background-color: 	#424a5c;
+}
+.technical_skills{
+    margin: auto;
+    color: whitesmoke;
+    /* font-family: sans-serif; */
+    font-weight: bold;
+    background-color: 	#424a5c;
+}
+.first_col{
+    padding: 10px 0px 10px 210px;
+    color: white;
+  }
+.second_col{
+    padding: 10px 0px 10px 210px;
+    color: white;
+  }
+.third_col{
+    padding: 10px 0px 10px 210px;
+    color: white;
+}
+.fourth_col{
+    padding: 10px 0px 10px 210px;
+    color: white;
+}
+.fifth_col{
+    padding: 10px 0px 10px 210px;
+    color: white;
+}
+td{
+    font-family: cursive;
+}
+#skills{
+    border: none;
+}
+.h_skills{
+    margin: auto auto 30px auto;
+    color: #019479;
+    font-weight: bolder;
+    font-family: 'Merriweather', serif; 
+}
+.h_projects{
+    margin: auto auto 40px auto;
+    color: #019479;
+    font-weight: bolder;
+    font-family: 'Merriweather', serif; 
+}
+.soft_skills_h{
+    padding-top: 45px;
+    margin: auto;
+    color: whitesmoke;
+    font-family: 'Merriweather', serif; 
+    /* font-family: sans-serif; */
+    font-weight: bold;
+    background-color: 	#424a5c;
+}
+.soft_skills{
+    margin: auto auto 20px auto;
+    color: whitesmoke;
+    /* font-family: sans-serif; */
+    font-weight: bold;
+    background-color: 	#424a5c;
+}
+.ss_first_col{
+    padding: 10px 0px 10px 500px;
+    color: white;
+}
+.ss_second_col{
+    padding: 10px 0px 10px 200px;
+    color: white;
+}
+.ss_third_col{
+    padding: 10px 0px 10px 200px;
+    color: white;
+}
+.card {
+    margin-left: 40px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    display: inline-block;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  .p_bot_img,.p_prescription_img,.p_hospital_img{
+      padding-left: 30px;
+  }
+  .p_github_icon{
+      margin-right: 100px;
+  }
+ .card_footer{
+      width: auto;
+  }
+.footer{
+    background-color: #ccf2f4;
+  }
+.copyright{
+    margin: 0px;
+}
+.footer_img{
+    margin-right: 30px;
+}
+/* Feed back button code */
+.feed_back_btn{
+    margin-bottom: 30px;
+}
+  /* Feed back button code */
